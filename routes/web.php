@@ -18,4 +18,8 @@ Route::get('ยูสเซอร์/แสดง/{id}', 'UserController@show');
 
 Route::auth();
 
+Route::get('/อะไรสักอย่างหนึ่ง', function(){
+    return "acb";
+});
+
 Route::get('/home', 'HomeController@home');
